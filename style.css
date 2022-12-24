@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+
+.textview {
+    display: inline-block;
+    margin: 2px;
+    width: 198px;
+    height: 29px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: pink;
+    border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 42px;
+    height: 91px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: pink;
+
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    background-color: pink;
+
+}
+
+.button:active,
+.allclearButton:active,
+.equalButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+
+
+.button:hover,
+.equalButton:hover {
+    background-color: yellow;
+    box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AE5700;
+    border-left: 2px solid #AE5700;
+
+}
+
+.allclearButton {
+    border-radius: 10px;
+    color: black;
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: white;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+
+    outline: none;
+}
+
+.h1 {
+    text-align: center;
+    color: violet;
+    font-size: 50px;
+}
+
+
+
+.container {
+    background: violet;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
